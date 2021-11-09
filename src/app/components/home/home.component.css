@@ -1,0 +1,10 @@
+p{
+    height: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    text-align: center;
+    text-shadow: 3px 5px 5px black;
+    color: black;
+    background-color: rgba(194, 37, 37, 0.404);
+    font-size: 50px;
+}

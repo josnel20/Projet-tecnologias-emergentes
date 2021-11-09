@@ -1,0 +1,21 @@
+<div class="cont">
+    <div class="menu">
+        <h4>Carrinhos do Zé</h4>
+        <h6>CATEGORIAS</h6>
+        <ul>
+            <li><a [routerLink]="['/carros-antigos']" routerLinkActive="active">Carros Antigos</a></li>
+            <li><a [routerLink]="['/carros-conversiveis']" routerLinkActive="active">Carros Conversíveis</a></li>
+            <li><a [routerLink]="['/carros-diesel']" routerLinkActive="active">Carros Diesel</a></li>
+            <li><a [routerLink]="['/carros-economicos']" routerLinkActive="active">Carros Econômicos</a></li>
+            <li><a [routerLink]="['/carros-familia']" routerLinkActive="active">Carros Família</a></li>
+            <li><a [routerLink]="['/carros-de-luxo']" routerLinkActive="active">Carros Luxo</a></li>
+            <li><a [routerLink]="['/carros-grandes']" routerLinkActive="active">Carros Grandes</a></li>
+            <li><a [routerLink]="['/carros-hatches']" routerLinkActive="active">Carros Hatches</a></li>
+            <li><a [routerLink]="['/picapes']" routerLinkActive="active">Picapes</a></li>
+            <li><a [routerLink]="['/SUVs']" routerLinkActive="active">SUVs</a></li>
+        </ul>
+    </div>
+    <div class="produtos">
+        <router-outlet></router-outlet>
+    </div>
+</div>

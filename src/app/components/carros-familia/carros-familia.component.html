@@ -1,0 +1,14 @@
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a [routerLink]="['/home']" routerLinkActive="active">Inicio</a></li>
+            <li class="breadcrumb-item" [routerLink]="['/carros-familia']" routerLinkActive="active">Carros Familia</li>
+        </ol>
+    </nav>
+</div>
+<div class="container justify-content-arond">
+    <div class="card" *ngFor="let carro of carros">
+        <img [src]="carro.foto" alt="imagem Produto">
+        <h4> {{carro.produto}} </h4>
+    </div>
+</div>
